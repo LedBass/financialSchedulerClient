@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="financialSchedulerClient">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.marcio.financialSchedulerClient.financialSchedulerClient' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/financialSchedulerClient/greet" class="com.marcio.financialSchedulerClient.server.GreetingServiceImpl" />
+
+</module>
